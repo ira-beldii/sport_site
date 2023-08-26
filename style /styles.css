@@ -1,0 +1,50 @@
+/*фитнес блог назва блогу зверху*/
+
+.fitness_blog {
+    color: white;
+
+}
+
+/*сайт бар*/
+.site_bar {
+    background-color: black;
+    padding-left: 700px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    /* Розтягує елемент на доступну ширину */
+    padding: 40px;
+    border: 5px solid #ccc;
+    text-align: center;
+    color: rgb(55, 56, 56);
+    background-color: rgb(157, 151, 144);
+}
+
+.container_bloc {
+    display: flex;
+}
+
+.block {
+    flex: 1;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*кнопки на головній сторінці сайту*/
+
+.button_home_page {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,36 @@
+/**сторрінка фітнесу сайт бар*/
+
+.site_bar_fitness {
+    background-color: rgb(157, 151, 144);
+    padding-left: 900px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    padding-top: 20px;
+    max-width: 20%;
+    /* Задаємо максимальну ширину картинки */
+    margin-right: 20px;
+    /* Простір між картинкою та текстом */
+}
+
+.imag2 {
+    padding-top: 20px;
+    max-width: 20%;
+    max-height: 60%;
+    /* Задаємо максимальну ширину картинки */
+    margin-right: 20px;
+    /* Простір між картинкою та текстом */
+}
+
+.text-content {
+    flex: 2;
+    /* Займає залишковий вільний простір в контейнері */
+}
